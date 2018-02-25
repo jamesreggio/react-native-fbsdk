@@ -48,7 +48,7 @@ RCT_EXPORT_MODULE(FBShareApi);
 
 + (BOOL)requiresMainQueueSetup
 {
-  return YES;
+  return NO;
 }
 
 #pragma mark - React Native Methods
