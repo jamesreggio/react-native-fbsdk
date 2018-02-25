@@ -41,6 +41,11 @@ RCT_ENUM_CONVERTER(FBSDKShareDialogMode, (@{
 
 RCT_EXPORT_MODULE(FBShareDialog);
 
++ (BOOL)requiresMainQueueSetup
+{
+  return NO;
+}
+
 #pragma mark - Object Lifecycle
 
 - (instancetype)init
