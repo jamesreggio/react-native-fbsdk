@@ -48,6 +48,10 @@ type ShareDialogModeIOS =
    * Acts with the most appropriate mode that is available.
    */
   | 'automatic'
+  /**
+   * The native dialog is used.
+   */
+  | 'native'
   /*
    * Displays the dialog in Safari.
    */
